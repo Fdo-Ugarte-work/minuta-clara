@@ -1,0 +1,23 @@
+{
+  "name": "@minuta-clara/web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vike dev",
+    "build": "vike build",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@minuta-clara/contracts": "workspace:*",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vike": "^0.4.270",
+    "vike-react": "^0.6.31"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.2.6"
+  }
+}

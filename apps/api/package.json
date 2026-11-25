@@ -1,0 +1,16 @@
+{
+  "name": "@minuta-clara/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@minuta-clara/contracts": "workspace:*",
+    "hono": "^4.13.17"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

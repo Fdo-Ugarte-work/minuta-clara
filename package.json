@@ -1,0 +1,14 @@
+{
+  "name": "minuta-clara",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "bun --filter @minuta-clara/web dev",
+    "dev:api": "bun --filter @minuta-clara/api dev",
+    "typecheck": "bun run --parallel --filter '*' typecheck"
+  }
+}
